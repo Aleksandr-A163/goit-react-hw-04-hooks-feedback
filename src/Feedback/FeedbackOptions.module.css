@@ -1,0 +1,35 @@
+.message {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message__title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.message__section {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message_buttons {
+  padding: 10px 40px 10px 40px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.message_buttons:hover {
+  color: white;
+  transform: scale(1.1);
+  background-color: rgb(108, 250, 155);
+}
